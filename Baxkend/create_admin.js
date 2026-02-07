@@ -1,14 +1,4 @@
-const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
-require('dotenv').config();
 
-async function createAdminUser() {
-    try {
-        await mongoose.connect(process.env.MONGO_URI);
-        console.log('✅ Connected to MongoDB');
-        
-        const User = require('./src/model/User');
-        
         // Check if admin exists
         const existing = await User.findOne({ username: 'admin' });
         if (existing) {
