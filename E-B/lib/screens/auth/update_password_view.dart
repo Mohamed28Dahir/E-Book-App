@@ -6,6 +6,16 @@ import '../widgets/custom_text_field.dart';
 import '../widgets/primary_button.dart';
 import 'login_screen.dart';
 
+class UpdatePasswordView extends GetViewimport 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'auth_controller.dart';
+import '../utils/app_colors.dart';
+import '../widgets/custom_text_field.dart';
+import '../widgets/primary_button.dart';
+import 'login_screen.dart';
+
+class UpdatePasswordView extends GetView
+
 class UpdatePasswordView extends GetView<AuthController> {
   const UpdatePasswordView({super.key});
 
