@@ -1,4 +1,8 @@
-
+﻿[dotenv@17.2.4] injecting env (3) from .env -- tip: ≡ƒöæ add access controls to secrets: https://dotenvx.com/ops
+Γ£à Connected to MongoDB
+≡ƒôû Book Found:
+Title: Cabas
 PDF URL (Raw from DB): uploads\books\pdfs\pdfUrl-1770448860352-474592052.pdf
 Cover Image (Raw from DB): uploads\books\covers\coverImage-1770448859896-345849338.jpg
+
 
