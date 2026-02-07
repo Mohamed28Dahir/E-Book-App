@@ -1,8 +1,3 @@
-# E-Book Digital Library Platform
-
-A professional, full-stack digital library application featuring a modern Flutter frontend and a robust Node.js/MongoDB backend. This platform provides a seamless reading experience for users and comprehensive management tools for administrators.
-
-## 🚀 Key Features
 
 ### User Experience
 - **Premium PDF Reader**: Integrated with `Syncfusion` for a smooth, high-quality reading experience.
