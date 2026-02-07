@@ -7,6 +7,7 @@ import 'admin_controller.dart';
 class AddUserView extends StatefulWidget {
   final Map<String, dynamic>? userData;
   const AddUserView({super.key, this.userData});
+  late TextEditingController genderController;
 
   @override
   State<AddUserView> createState() => _AddUserViewState();
