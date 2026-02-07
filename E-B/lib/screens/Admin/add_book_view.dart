@@ -16,6 +16,10 @@ class AddBookView extends StatefulWidget {
 }
 
 ;
+class _AddBookViewState extends State<AddBookView> {
+  late TextEditingController titleController;
+  late TextEditingController authorController;
+  String? selectedCategory
 
   PlatformFile? coverImageFile;
   PlatformFile? pdfFile;
