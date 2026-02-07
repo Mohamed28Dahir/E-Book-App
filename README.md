@@ -1,7 +1,10 @@
 # E-Book Digital Library Platform
 
 # Group 2
-
+1. Abdikadir Ibrahim Hassan, ID: C1220285
+2. Mohamed Dahir Osman, ID: C1220104
+3. Abas Mohamed Abdirashid, ID: C1210534
+4. Maido Mowlod Hussein, ID: C1220035
 
 A professional, full-stack digital library application featuring a modern Flutter frontend and a robust Node.js/MongoDB backend. This platform provides a seamless reading experience for users and comprehensive management tools for administrators.
 
