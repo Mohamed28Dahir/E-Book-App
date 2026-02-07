@@ -4,7 +4,6 @@ import '../utils/app_colors.dart';
 import '../../api/api_service.dart';
 import 'admin_controller.dart';
 
-
 class AddUserView extends StatefulWidget {
   final Map<String, dynamic>? userData;
   const AddUserView({super.key, this.userData});
