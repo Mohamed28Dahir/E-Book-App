@@ -11,7 +11,11 @@ class AuthController extends GetxController {
   var isPasswordVisible = false.obs;
   var isLoading = false.obs;
   // Text Controllers
-  
+  final usernameController = TextEditingController();
+  final passwordController = TextEditingController();
+  final fullnameController = TextEditingController(); 
+  final phoneController = TextEditingController();    
+  final genderController = TextEditingController();  
   
   final newPasswordController = TextEditingController(); 
   final confirmPasswordController = TextEditingController(); 
