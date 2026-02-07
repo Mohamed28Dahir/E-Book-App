@@ -5,7 +5,6 @@ import '../utils/app_colors.dart';
 import '../widgets/custom_text_field.dart';
 import '../widgets/primary_button.dart';
 import 'login_screen.dart';
-
 class RegisterView extends GetView<AuthController> {
   const RegisterView({super.key});
 
