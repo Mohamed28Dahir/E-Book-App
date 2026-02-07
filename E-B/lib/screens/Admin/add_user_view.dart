@@ -17,7 +17,6 @@ class _AddUserViewState extends State<AddUserView> {
   late TextEditingController passwordController;
   late TextEditingController fullnameController;
   late TextEditingController phoneController;
-  late TextEditingController genderController;
   String selectedRole = 'User';
   bool isPasswordVisible = false;
   bool isLoading = false;
