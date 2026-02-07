@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'admin_controller.dart';
 import '../utils/app_colors.dart';
 
+
 class DashboardView extends GetView<AdminController> {
   const DashboardView({super.key});
 
