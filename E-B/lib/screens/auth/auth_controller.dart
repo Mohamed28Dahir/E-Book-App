@@ -10,13 +10,8 @@ import '../Admin/admin_main_view.dart';
 class AuthController extends GetxController {
   var isPasswordVisible = false.obs;
   var isLoading = false.obs;
-
   // Text Controllers
-  final usernameController = TextEditingController();
-  final passwordController = TextEditingController();
-  final fullnameController = TextEditingController(); // Added
-  final phoneController = TextEditingController();    // Added
-  final genderController = TextEditingController();   // Added
+  
   
   final newPasswordController = TextEditingController(); 
   final confirmPasswordController = TextEditingController(); 
