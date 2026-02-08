@@ -278,9 +278,9 @@ This project was a collaborative effort by a dedicated team of developers, each 
 | Name | Student ID | GitHub Profile |
 | :--- | :--- | :--- |
 | **Mohamed Dahir Osman** | C1220104 | [Me |
-| **Maido Mowliid Hussein** | C1220035 | [GitHub Profile](https://github.com/Qaysar25) |
-| **Abdikadir Ibrahim Hassan** | C1220285 | [GitHub Profile](#) |
-| **Abas Mohamed Abdirashid** | C1210534 | [GitHub Profile](#) |
+| **Maido Mowliid Hussein** | C1220035 | [GitHub Profile](https://github.com/maaidomowliid72-a11y) |
+| **Abdikadir Ibrahim Hassan** | C1220285 | [GitHub Profile](https://github.com/Abdukadir7) |
+| **Abas Mohamed Abdirashid** | C1210534 | [GitHub Profile](https://github.com/Qaysar25) |
 
 ## 🌟 Special Thanks & Mentorship
 We would like to extend our deepest gratitude to the following senior developers for their exceptional guidance, technical mentorship, and support in resolving complex architectural challenges during the development of this project:
