@@ -2,10 +2,10 @@
 
 A professional, full-stack E-Book application featuring a premium reading experience, robust admin management, and secure role-based authentication.
 
-## 📋 Project Overview
+## Project Overview
 The **E-Book Library Management System** is a high-performance, full-stack digital library solution designed to bridge the gap between premium content and readers. It provides a seamless platform for users to discover, read, and manage books while equipping administrators with robust tools for library oversight, user management, and real-time statistics.
 
-## 📂 Project File Structure
+##  Project File Structure
 
 The project is divided into two main parts: `Baxkend` (Node.js/Express) and `E-B` (Flutter).
 
@@ -40,14 +40,14 @@ E-BOOKS/
 - **E-B/lib/api**: Contains the `ApiService` which centralizes all network communication using the Dio package.
 - **E-B/lib/screens**: Organized by feature to separate Administrative tasks from User discovery tasks.
 
-## ⚡ Quick Setup Guide
+##  Quick Setup Guide
 
 ### 🛠️ Prerequisites
 - **Node.js** (v16+) & **npm**
 - **Flutter SDK** (Stable channel)
 - **MongoDB** (Local instance or MongoDB Atlas)
 
-### 1️⃣ Backend Setup
+### 1️ Backend Setup
 1.  Navigate to the backend directory:
     ```bash
     cd Baxkend
@@ -68,7 +68,7 @@ E-BOOKS/
     npm run dev
     ```
 
-### 2️⃣ Frontend Setup
+### 2️ Frontend Setup
 1.  Navigate to the frontend directory:
     ```bash
     cd E-B
@@ -85,13 +85,13 @@ E-BOOKS/
     flutter run
     ```
 
-## 🎯 Core Objectives
+##  Core Objectives
 *   **Centralized Library Management**: A unified dashboard for administrators to manage digital assets and user permissions.
 *   **Premium Interactive Reading**: A high-fidelity PDF reading experience with optimized rendering and state persistence.
 *   **Enterprise-Grade Security**: Role-based access control (RBAC) and JWT-driven security to protect sensitive data.
 *   **Performance & Scalability**: A modern micro-service-ready architecture built on Node.js and Flutter.
 
-## 🏗️ System Architecture
+##  System Architecture
 The project follows a modern three-tier architecture:
 
 ```mermaid
@@ -122,11 +122,11 @@ graph TD
     Logic --> Books
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 The **E-Book Library System** is built using a robust and modern technology stack, ensuring high performance, security, and a premium user experience across all platforms.
 
-### 🎨 Frontend (Flutter Mobile App)
+###  Frontend (Flutter Mobile App)
 - **Framework**: [Flutter](https://flutter.dev/) (Cross-platform UI toolkit)
 - **State Management**: [GetX](https://pub.dev/packages/get) (High-performance state and route management)
 - **Network Client**: [Dio](https://pub.dev/packages/dio) (Powerful HTTP client for networking)
@@ -134,7 +134,7 @@ The **E-Book Library System** is built using a robust and modern technology stac
 - **Typography**: [Google Fonts (Poppins)](https://fonts.google.com/specimen/Poppins)
 - **PDF Core**: [Flutter PDFView](https://pub.dev/packages/flutter_pdfview) (Native-level document rendering)
 
-### ⚙️ Backend (Node.js REST API)
+###  Backend (Node.js REST API)
 - **Runtime**: [Node.js](https://nodejs.org/) (Asynchronous event-driven JavaScript)
 - **Framework**: [Express.js](https://expressjs.com/) (Fast, unopinionated, minimalist web framework)
 - **Database**: [MongoDB Atlas](https://www.mongodb.com/atlas) (Cloud-hosted NoSQL database)
@@ -144,38 +144,38 @@ The **E-Book Library System** is built using a robust and modern technology stac
   - [Bcrypt.js](https://github.com/kelektiv/node.bcrypt.js) (Industry-standard password hashing)
 - **File Handling**: [Multer](https://github.com/expressjs/multer) (Middleware for handling `multipart/form-data`)
 
-### 🛠️ Development & Design Tools
+###  Development & Design Tools
 - **AI Augmented Engineering**: [Antigravity/Gemini](https://deepmind.google/technologies/gemini/) (Intelligent code analysis, debugging, and documentation)
 - **UI/UX Design**: [Google Stitch](https://stitch.withgoogle.com/) (Premium design patterns and design systems)
 - **Version Control**: [Git & GitHub](https://github.com/) (Distributed version control)
 - **Architecture Visualization**: [Mermaid.js](https://mermaid.js.org/) (Diagramming and charting tool)
 
-## 🔄 How It Works
+##  How It Works
 
 The system operates on a seamless interaction between the Flutter frontend and the Node.js backend, categorized into two primary user journeys:
 
-### 👤 User Journey
+###  User Journey
 1.  **Discovery**: Users browse the home screen, exploring categories like *Education*, *History*, or *Islamic stories*.
 2.  **Interaction**: Users can add books to their **Favorites** or view their **Reading History** to pick up where they left off.
 3.  **Reading**: When a book is selected, the app fetches the secure PDF URL from the backend and renders it using the premium PDF viewer module.
 4.  **Persistence**: Every action is saved to the MongoDB database via the authenticated API, ensuring a consistent experience across sessions.
 
-### 🔑 Admin Journey
+###  Admin Journey
 1.  **Monitoring**: Admins view a specialized dashboard with real-time stats on the total number of books, users, and active reads.
 2.  **Library Management**: Admins can upload new e-books (PDFs and Cover Images) which are stored in the cloud/local storage and indexed in the database.
 3.  **User Oversight**: Admins have the authority to manage user accounts, update profiles, or resolve access issues directly from the management console.
 
-## � Modern Development Workflow
+##  Modern Development Workflow
 
 This project represents a **"human-led, AI-accelerated"** approach to software engineering. The architecture and core features were conceptualized by Mohamed Dahir, who used a suite of advanced tools to ensure professional execution:
 
-- **🎨 UI/UX Design**: The project's visual language and interface were designed using **Google Stitch**, ensuring a clean, modern, and high-performance user experience.
-- **💡 AI-Driven Analysis**: AI was utilized strategically throughout the build—not to generate the project blindly, but as a high-level consultant. It was used to analyze system requirements, brainstorm complex features, and provide deep insights into the project's logic.
-- **🛠️ Intelligent Debugging**: **Antigravity** and other AI tools were employed to fix technical errors, optimize code blocks, and maintain high security standards.
+- ** UI/UX Design**: The project's visual language and interface were designed using **Google Stitch**, ensuring a clean, modern, and high-performance user experience.
+- ** AI-Driven Analysis**: AI was utilized strategically throughout the build—not to generate the project blindly, but as a high-level consultant. It was used to analyze system requirements, brainstorm complex features, and provide deep insights into the project's logic.
+- ** Intelligent Debugging**: **Antigravity** and other AI tools were employed to fix technical errors, optimize code blocks, and maintain high security standards.
 
 *While AI provided technical support, all core implementation, design decisions, and architectural logic were led and verified by the human development team.*
 
-## �📱 Frontend
+##  Frontend
 
 The frontend is built with **Flutter** and follows a Reactively-driven design pattern using **GetX** for state management and dependency injection.
 
@@ -190,7 +190,7 @@ The frontend is built with **Flutter** and follows a Reactively-driven design pa
 2.  **User Module**: Focuses on the "Reader's Journey". Includes a personalized home screen, categories, favorites, and the PDF reader.
 3.  **Admin Module**: A management-focused interface for adding books, monitoring statistics, and managing user access.
 
-## 🗄️ Database Schema
+##  Database Schema
 The system utilizes a NoSQL approach with MongoDB, optimized for fast retrieval and flexible data structures.
 
 ### User Schema
@@ -213,7 +213,7 @@ The system utilizes a NoSQL approach with MongoDB, optimized for fast retrieval 
 | `pdfUrl` | String | URL path to the PDF document |
 | `rating` | Number | User-assigned or average rating |
 
-## 🚀 API Documentation
+##  API Documentation
 
 ### Authentication (`/api/auth`)
 *   `POST /signup`: Register a new account.
@@ -232,14 +232,14 @@ The system utilizes a NoSQL approach with MongoDB, optimized for fast retrieval 
 *   `POST /favorite`: Add a book to the user's favorites.
 *   `GET /history`: View personal reading history.
 
-## 🔑 Authentication Flow
+##  Authentication Flow
 1.  **Request**: User enters credentials in the Flutter App.
 2.  **Validation**: Backend verifies username/password and generates a signed JWT.
 3.  **Storage**: Flutter App securely stores the JWT using `flutter_secure_storage`.
 4.  **Authorization**: Subsequent requests include the Bearer Token in the headers.
 5.  **Role Check**: Middleware (`roleMiddleware.js`) validates if the user has permissions for the requested endpoint (e.g., restricted Admin Dashboard).
 
-## 🛡️ Security Implementation
+##  Security Implementation
 
 The system implements industry-standard security practices to protect user data and ensure the integrity of the application.
 
@@ -263,7 +263,7 @@ The system implements industry-standard security practices to protect user data 
 - **CORS Handling**: Configured `cors` middleware to restrict resource sharing to authorized origins.
 - **Environment Isolation**: Sensitive keys like `JWT_SECRET` and `MONGO_URI` are managed via `.env` files and never hardcoded in the source logic
 
-## 🏁 Conclusion & Future Work
+##  Conclusion & Future Work
 This project represents a professional-level system focusing on real-world implementation, clean architecture, and secure backend development.
 
 **Future Enhancements:**
@@ -272,7 +272,7 @@ This project represents a professional-level system focusing on real-world imple
 - [ ] **Social Features**: Reading clubs and book comments/reviews.
 - [ ] **Search Engine**: Advanced filtering and full-text search within PDFs.
 
-## 👥 Collaborators & Credits
+##  Collaborators & Credits
 This project was a collaborative effort by a dedicated team of developers, each contributing to different aspects of the system, from backend architecture to frontend premium UI design.
 
 | Name | Student ID | GitHub Profile |
@@ -282,11 +282,18 @@ This project was a collaborative effort by a dedicated team of developers, each 
 | **Abdikadir Ibrahim Hassan** | C1220285 | [GitHub Profile](https://github.com/Abdukadir7) |
 | **Abas Mohamed Abdirashid** | C1210534 | [GitHub Profile](https://github.com/Qaysar25) |
 
-## 🌟 Special Thanks & Mentorship
-We would like to extend our deepest gratitude to the following senior developers for their exceptional guidance, technical mentorship, and support in resolving complex architectural challenges during the development of this project:
+##  Special Thanks & Mentorship
+We would like to extend our deepest gratitude to our teachers and mentors for their exceptional guidance, technical mentorship, and support throughout the development of this project:
 
+### 🎓 Our Teachers
+- **Ahmed Mohamed**: For his invaluable teachings on **Flutter** development and mobile UI/UX principles.
+- **Rabiile**: For his deep insights into **Node.js** backend architecture and database management.
+
+###  Senior Developers & Technical Advisors
 - **Abdihakin Geedi**: Senior Developer & Technical Advisor.
 - **Muz'ab Bashir**: Senior Developer & Architecture Consultant.
+
+Their expertise was pivotal in helping us overcome significant engineering hurdles and ensuring the delivery of a professional-grade system.
 
 Their expertise was pivotal in helping us overcome significant engineering hurdles and ensuring the delivery of a professional-grade system.
 
