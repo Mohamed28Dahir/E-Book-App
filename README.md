@@ -278,7 +278,7 @@ This project was a collaborative effort by a dedicated team of developers, each 
 | Name | Student ID | GitHub Profile |
 | :--- | :--- | :--- |
 | **Mohamed Dahir Osman** | C1220104 | [Me |
-| **Maido Mowliid Hussein** | C1220035 | [GitHub Profile](#) |
+| **Maido Mowliid Hussein** | C1220035 | [GitHub Profile](https://github.com/Qaysar25) |
 | **Abdikadir Ibrahim Hassan** | C1220285 | [GitHub Profile](#) |
 | **Abas Mohamed Abdirashid** | C1210534 | [GitHub Profile](#) |
 
