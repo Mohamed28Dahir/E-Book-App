@@ -261,14 +261,7 @@ The system implements industry-standard security practices to protect user data 
 
 ### 4. API Security
 - **CORS Handling**: Configured `cors` middleware to restrict resource sharing to authorized origins.
-- **Environment Isolation**: Sensitive keys like `JWT_SECRET` and `MONGO_URI` are managed via `.env` files and never hardcoded in the source logic.
-
-## 📸 Screenshots
-*(Note: Visual assets are located in the `/assets` directory)*
-
-| Login Screen | User Home | Book Reader |
-| :---: | :---: | :---: |
-| ![Login](https://via.placeholder.com/200x400?text=Login+Screen) | ![Home](https://via.placeholder.com/200x400?text=User+Home) | ![Reader](https://via.placeholder.com/200x400?text=PDF+Reader) |
+- **Environment Isolation**: Sensitive keys like `JWT_SECRET` and `MONGO_URI` are managed via `.env` files and never hardcoded in the source logic
 
 ## 🏁 Conclusion & Future Work
 This project represents a professional-level system focusing on real-world implementation, clean architecture, and secure backend development.
@@ -284,7 +277,7 @@ This project was a collaborative effort by a dedicated team of developers, each 
 
 | Name | Student ID | GitHub Profile |
 | :--- | :--- | :--- |
-| **Mohamed Dahir Osman** | C1220104 | [@Mohamed28Dahir](https://github.com/Mohamed28Dahir) |
+| **Mohamed Dahir Osman** | C1220104 | [Me |
 | **Maido Mowliid Hussein** | C1220035 | [GitHub Profile](#) |
 | **Abdikadir Ibrahim Hassan** | C1220285 | [GitHub Profile](#) |
 | **Abas Mohamed Abdirashid** | C1210534 | [GitHub Profile](#) |
